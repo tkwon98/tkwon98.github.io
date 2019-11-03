@@ -1,3 +1,13 @@
-h3 {
+h2 {
   text-align: center;
+}
+
+button {
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
