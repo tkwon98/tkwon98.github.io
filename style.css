@@ -63,15 +63,15 @@ div.topnav {
 }
 
 div.spacer {
-    height: 208px;
+    height: 30%;
 }
 
 div.space2 {
-    height: 23px;
+    height: 6.6%;
 }
 
 div.space3 {
-    height: 6px;
+    height: 4.3%;
 }
 
 
@@ -85,5 +85,15 @@ p.contactinfo {
     color: gray;
     font-size: 20;
 }
+
+div.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;  
+}
+
 
 
