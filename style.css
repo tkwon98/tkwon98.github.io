@@ -78,6 +78,15 @@ div.contact {
     left: 27%;
 }
 
+div.soon {
+    text-align: center;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+
+
+
 div.image-container {
     margin: 0;
   position: absolute;
