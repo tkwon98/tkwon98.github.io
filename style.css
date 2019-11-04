@@ -68,18 +68,6 @@ div.topnav {
     font-size: 2vh;
 }
 
-div.spacer {
-    height: 30%;
-}
-
-div.space2 {
-    height: 6.6%;
-}
-
-div.space3 {
-    height: 4.3%;
-}
-
 
 div.contact {
     margin: 0;
@@ -87,7 +75,7 @@ div.contact {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-    left: 30%;
+    left: 27%;
 }
 
 div.image-container {
