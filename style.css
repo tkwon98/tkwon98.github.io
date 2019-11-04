@@ -42,12 +42,12 @@ a, u {
 
 a
 {
-    font-size: 100%;
     padding: 1%;
     display:inline-block;
 }
 
 .container{
+    font-size: 2.5vh;
   width: 100%;
   text-align: center;
 }
@@ -65,7 +65,7 @@ div.topnav {
     left: 10%;
    width:70%;
    height:8%;
-    font-size: 90%
+    font-size: 2vh;
 }
 
 div.spacer {
@@ -100,7 +100,7 @@ div.image-container {
 
 p.contactinfo {
     color: gray;
-    font-size: 20;
+    font-size: 2.2vh;
 }
 
 div.fullscreen {
