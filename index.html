@@ -16,20 +16,47 @@
 
 <body>
     <div class="fullscreen">
-        <div class="container">
+        
+        <div class="title-container">
             <a class="title" href="index.html">DAVID HAN-KYUNG KIM</a>
         </div>
         
         <div class="image-container">
-            <div id="cp_widget_ba64113a-7bea-4228-bb7a-626cb746dce6">...</div>
-            <script type="text/javascript">
-                var cpo = []; cpo["_object"] ="cp_widget_ba64113a-7bea-4228-bb7a-626cb746dce6"; cpo["_fid"] = "AcPABnuoBuvA";
-                var _cpmp = _cpmp || []; _cpmp.push(cpo);
-                (function() { var cp = document.createElement("script"); cp.type = "text/javascript";
-                cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
-                var c = document.getElementsByTagName("script")[0];
-                c.parentNode.insertBefore(cp, c); })(); 
-            </script>
+            
+            <button class="carousel_button-left is-hidden">
+                <img src="img/back.svg" alt="">
+            </button>
+            
+            <div class="carousel_track-container">
+                <ul class="carousel_track">
+                    <li class="carousel_slide current-slide">
+                        <img src="img/David-01.jpg" alt="">
+                    </li>
+                    <li class="carousel_slide">
+                        <img src="img/David-04.jpg" alt="">
+                    </li>
+                    <li class="carousel_slide">
+                        <img src="img/David-03.jpg" alt="">
+                    </li>
+                    <li class="carousel_slide">
+                        <img src="img/David-02.jpg" alt="">
+                    </li>
+                    <li class="carousel_slide">
+                        <img src="img/David-05.jpg" alt="">
+                    </li>
+                    <li class="carousel_slide">
+                        <img src="img/David-06.jpg" alt="">
+                    </li>
+                    <li class="carousel_slide">
+                        <img src="img/David-07.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+            
+            <button class="carousel_button-right">
+                <img src="img/next.svg" alt="">
+            </button>
+            
         </div>
     
     
@@ -38,10 +65,61 @@
         <div class="topnav">
             <a href="index.html">BOOK 1</a>
             <a href="journal.html">JOURNAL</a>
-            <a href="film.html">FILM</a>
+            <a href="" class="na">FILM</a>
             <a href="contact.html">CONTACT</a>
         </div>
-    </div>
 
+        <div class="caption">
+            <ul class="caption-track">
+                <li class="c current-caption">
+                    <p>EMMA PORTNER <br>
+                        BROOKLYN, NY <br>
+                        2019
+                    </p>
+                </li>
+                <li class="c is-hidden">
+                    <p>DEVONTE HYNES <br>
+                            BROOKLYN, NY <br>
+                            2018
+                    </p>
+                </li>
+                <li class="c is-hidden">
+                    <p>EMMA PORTNER, ANTIQUE '89 <br>
+                            BROOKLYN, NY <br>
+                            2019
+                    </p>
+                </li>
+                <li class="c is-hidden">
+                    <p>EMMA PORTNER, ANTIQUE '89 <br>
+                            BROOKLYN, NY <br>
+                            2019
+                    </p>
+                </li>
+                <li class="c is-hidden">
+                    <p>CAMERON LEE PHAN <br>
+                            BROOKLYN, NY <br>
+                            2019
+                    </p>
+                </li>
+                <li class="c is-hidden">
+                    <p>DASHIEL BRAHMANN <br>
+                            BROOKLYN, NY <br>
+                            2018
+                    </p>
+                </li>
+                <li class="c is-hidden">
+                    <p>TED PARK <br>
+                            BROOKLYN, NY <br>
+                            2019
+                    </p>
+                </li>
+            </ul>
+
+        </div>
+        
+    </div>
+    
+    
+<script src="carousel.js"></script>
 </body>
 </html>
