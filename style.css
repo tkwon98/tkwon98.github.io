@@ -70,18 +70,38 @@ a, u {
     text-decoration: none;
 }
 
-a
+a.nav
 {
-    padding: 1%;
+    padding: 20px;
     display:inline-block;
 }
 
+a.title {
+    padding-top: 3.5%;
+    display: inline-block;
+}
+
+a.nav {
+}
+
 .title-container{
-    font-size: 1.3vh;
+    font-size: 12pt;
     width: 100%;
+    height: 8%;
     text-align: center;
     font-family: 'Optima';
+    letter-spacing: 0.161em;
+    -webkit-transform:scale(0.6326,0.75); 
+    -moz-transform:scale(0.6326,0.75); 
+    -ms-transform:scale(0.6326,0.75); 
+    -o-transform:scale(0.6326,0.75); 
 }
+
+p {
+    font-family: 'Optima';
+}
+
+
 
 
 div.topnav {
@@ -89,19 +109,29 @@ div.topnav {
     bottom:0;
     width: 100%;
     height:4.5%;
-    font-size: 1.3vh;
+    font-size: 8pt;
     text-align: center;
     font-family: 'Optima';
+    letter-spacing: 0.161em;
+    -webkit-transform:scale(0.6326,0.75); 
+    -moz-transform:scale(0.6326,0.75); 
+    -ms-transform:scale(0.6326,0.75); 
+    -o-transform:scale(0.6326,0.75); 
 }
 
 div.caption {
     z-index: 1000;
     position: absolute;
-    bottom: 9%;
-    left: 0;
-    font-size: 1.3vh;
+    bottom: 1.3%;
+    left: 6.4%;
+    font-size: 7.5pt;
     color: #a0a09f;
     font-family: 'Optima';
+    letter-spacing: 0.161em;
+    -webkit-transform:scale(0.6326,0.75); 
+    -moz-transform:scale(0.6326,0.75); 
+    -ms-transform:scale(0.6326,0.75); 
+    -o-transform:scale(0.6326,0.75); 
 }
 
 
@@ -112,6 +142,7 @@ div.contact {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     left: 27%;
+    font-size: 8pt;
 }
 
 div.soon {
@@ -138,8 +169,9 @@ div.fullscreen {
 
 .image-container {
     position: relative;
-    height: 93%;
-    width: 80%;
+    top: 0;
+    height: 85%;
+    width: 85%;
     margin: 0 auto;
 }
 
