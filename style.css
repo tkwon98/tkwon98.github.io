@@ -420,8 +420,8 @@ div.fullscreen {
 
 .image-container {
     position: relative;
-    top: 15%;
-    height: 64%;
+    top: 18%;
+    height: 54%;
     width: 75%;
     margin: 0 auto;
 }
@@ -434,7 +434,7 @@ img {
 
 .carousel_track-container {
     top: 50%;
-    height: 70%;
+    height: 60%;
     overflow: hidden;
 }
 
@@ -456,7 +456,7 @@ img {
 
 .carousel_button-left {
     position: absolute;
-    top: 35%;
+    top: 32%;
     transform: translate(-50%);
     background: transparent;
     border: 0;
@@ -466,11 +466,11 @@ img {
 
 .carousel_button-right {
     position: absolute;
-    top: 35%;
+    top: 32%;
     transform: translate(-50%);
     background: transparent;
     border: 0;
-    right: -40px;
+    right: -60px;
     cursor: pointer
 }
 
