@@ -123,7 +123,7 @@ div.caption {
     width: 40%;
     z-index: 1000;
     position: absolute;
-    bottom: 0.5%;
+    bottom: 0;
     left: 0;
     font-size: 9pt;
     color: #a0a09f;
@@ -171,7 +171,7 @@ div.fullscreen {
 .image-container {
     position: relative;
     top: 0;
-    height: 85%;
+    height: 82%;
     width: 85%;
     margin: 0 auto;
 }
