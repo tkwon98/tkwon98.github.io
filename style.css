@@ -337,7 +337,7 @@ a.nav {
 .title-container{
     z-index: 1000;
     top: 0;
-    font-size: 13pt;
+    font-size: 15pt;
     width: 100%;
     height: 11%;
     text-align: center;
@@ -359,7 +359,7 @@ div.topnav {
     bottom:10px;
     width: 100%;
     height:4.5%;
-    font-size: 9pt;
+    font-size: 11pt;
     text-align: center;
     font-family: 'Optima';
     letter-spacing: 0.161em;
@@ -375,7 +375,7 @@ div.caption {
     position: absolute;
     bottom: 30%;
     left: 5%;
-    font-size: 9pt;
+    font-size: 11pt;
     color: #a0a09f;
     font-family: 'Optima';
     letter-spacing: 0.161em;
@@ -456,7 +456,7 @@ img {
 
 .carousel_button-left {
     position: absolute;
-    top: 32%;
+    top: 30%;
     transform: translate(-50%);
     background: transparent;
     border: 0;
@@ -466,7 +466,7 @@ img {
 
 .carousel_button-right {
     position: absolute;
-    top: 32%;
+    top: 30%;
     transform: translate(-50%);
     background: transparent;
     border: 0;
@@ -478,10 +478,10 @@ img {
 
 
 .carousel_button-right img {
-    width: 13px;
+    width: 16px;
 }
 .carousel_button-left img {
-    width: 13px;
+    width: 16px;
 }
 
 .is-hidden { display: none}
