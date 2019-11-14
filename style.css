@@ -1,3 +1,5 @@
+@media screen and (orientation:landscape) {
+
 @font-face {
 font-family: 'Optima';
 font-style: normal;
@@ -241,4 +243,254 @@ img {
     left: 0;
     padding: 0;
     margin: 0;
+}
+    
+}
+
+@media screen and (orientation:portrait) {
+    @font-face {
+font-family: 'Optima';
+font-style: normal;
+font-weight: normal;
+src: local('Optima'), url('OPTIMA.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Optima Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Optima Italic'), url('Optima_Italic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Optima Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Optima Medium'), url('Optima Medium.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Optima Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
+}
+
+button {
+    background:none;
+    border:none;
+    margin:0;
+    padding:10;
+    cursor: pointer;
+    cursor:hand;
+}
+
+button:focus {outline:0;}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.na:hover {
+    background-color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+a { color:black} /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:gray; }
+a:focus { text-decoration: none; color:gray; }
+a:hover, a:active { text-decoration: none; color:gray}
+
+a, u {
+    text-decoration: none;
+}
+
+a.nav
+{
+    padding: 20px;
+    display:inline-block;
+}
+
+a.title {
+    line-height: 100px;
+    display: inline-block;
+}
+
+a.nav {
+}
+
+.title-container{
+    z-index: 1000;
+    top: 0;
+    font-size: 13pt;
+    width: 100%;
+    height: 11%;
+    text-align: center;
+    font-family: 'Optima';
+    letter-spacing: 0.161em;
+    -webkit-transform:scale(0.6326,0.75); 
+    -moz-transform:scale(0.6326,0.75); 
+    -ms-transform:scale(0.6326,0.75); 
+    -o-transform:scale(0.6326,0.75); 
+}
+
+p {
+    font-family: 'Optima';
+}
+
+
+div.topnav {
+    position:absolute;
+    bottom:10px;
+    width: 100%;
+    height:4.5%;
+    font-size: 9pt;
+    text-align: center;
+    font-family: 'Optima';
+    letter-spacing: 0.161em;
+    -webkit-transform:scale(0.6326,0.75); 
+    -moz-transform:scale(0.6326,0.75); 
+    -ms-transform:scale(0.6326,0.75); 
+    -o-transform:scale(0.6326,0.75); 
+}
+
+div.caption {
+    width: 42%;
+    z-index: 1000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 9pt;
+    color: #a0a09f;
+    font-family: 'Optima';
+    letter-spacing: 0.161em;
+    -webkit-transform:scale(0.6326,0.75); 
+    -moz-transform:scale(0.6326,0.75); 
+    -ms-transform:scale(0.6326,0.75); 
+    -o-transform:scale(0.6326,0.75); 
+}
+
+
+div.contact {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 27%;
+    font-size: 8pt;
+}
+
+div.soon {
+    text-align: center;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+
+
+p.contactinfo {
+    color: gray;
+    font-size: 2.2vh;
+}
+
+div.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;  
+}
+
+.image-container {
+    position: relative;
+    top: 15%;
+    height: 64%;
+    width: 75%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel_track-container {
+    top: 50%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.carousel_track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 1000ms ease;
+}
+
+.carousel_slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel_button-left {
+    position: absolute;
+    top: 35%;
+    transform: translate(-50%);
+    background: transparent;
+    border: 0;
+    left: -40px;
+    cursor: pointer;
+}
+
+.carousel_button-right {
+    position: absolute;
+    top: 35%;
+    transform: translate(-50%);
+    background: transparent;
+    border: 0;
+    right: -40px;
+    cursor: pointer
+}
+
+
+
+
+.carousel_button-right img {
+    width: 13px;
+}
+.carousel_button-left img {
+    width: 13px;
+}
+
+.is-hidden { display: none}
+
+.caption-track {
+    list-style: none;
+    position: relative;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
 }
