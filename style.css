@@ -154,30 +154,28 @@ div.caption {
     -ms-transform:scale(0.6326,0.75); 
     -o-transform:scale(0.6326,0.75); 
 }
+    
+
 
 
 div.contact {
     margin: 0;
+    font-family: 'Optima';
     position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    top: 45%;
     left: 27%;
-    font-size: 8pt;
-}
-
-div.soon {
-    text-align: center;
+    font-size: 13pt;
+    letter-spacing: 0.161em;
+    -webkit-transform:scale(0.6326,0.75); 
+    -moz-transform:scale(0.6326,0.75); 
+    -ms-transform:scale(0.6326,0.75); 
+    -o-transform:scale(0.6326,0.75); 
     color: gray;
-    display: flex;
-    align-items: center;
 }
 
 
-p.contactinfo {
-    color: gray;
-    font-size: 2.2vh;
-}
+
+
 
 div.fullscreen {
     position: fixed;
