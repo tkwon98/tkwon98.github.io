@@ -48,7 +48,6 @@ nextButton.addEventListener('click', e => {
 });
 
 function leftSwipe() {
-    window.alert("This worked");
     const currentSlide = track.querySelector('.current-slide');
     const prevSlide = currentSlide.previousElementSibling;
     const prevIndex = slides.findIndex(slide => slide === prevSlide);
@@ -119,15 +118,14 @@ window.onload=function(){
       if (diffX > 0) {
         // swiped left
         console.log("swiped left");
-        leftSwipe();
-        window.alert("swiped left!");
+        rightSwipe();
+        
         
 
       } else {
         // swiped right
         console.log("swiped right");
-        rightSwipe();
-        window.alert("swiped right!");
+        leftSwipe();
         
 
 
