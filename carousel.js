@@ -39,6 +39,15 @@ const moveToSlide = (track, currentSlide, targetSlide) => {
 
 // left click -> slide left
 prevButton.addEventListener('click', e => {
+    leftSwipe();
+});
+
+// right click -> slide right
+nextButton.addEventListener('click', e => {
+    rightSwipe();
+});
+
+function leftSwipe() {
     const currentSlide = track.querySelector('.current-slide');
     const prevSlide = currentSlide.previousElementSibling;
     const prevIndex = slides.findIndex(slide => slide === prevSlide);
@@ -52,10 +61,9 @@ prevButton.addEventListener('click', e => {
 
     moveToSlide(track, currentSlide, prevSlide);
     hideShowArrows(slides, prevButton, nextButton, prevIndex);
-});
+}
 
-// right click -> slide right
-nextButton.addEventListener('click', e => {
+function rightSwipe() {
     const currentSlide = track.querySelector('.current-slide');
     const currentCaption = caption_track.querySelector('.current-caption');
     const nextCaption = currentCaption.nextElementSibling;
@@ -69,7 +77,7 @@ nextButton.addEventListener('click', e => {
 
     moveToSlide(track, currentSlide, nextSlide);
     hideShowArrows(slides, prevButton, nextButton, nextIndex);
-});
+}
 
 
 
@@ -110,38 +118,14 @@ window.onload=function(){
       if (diffX > 0) {
         // swiped left
         console.log("swiped left");
-          
-    const currentSlide = track.querySelector('.current-slide');
-    const prevSlide = currentSlide.previousElementSibling;
-    const prevIndex = slides.findIndex(slide => slide === prevSlide);
-
-    const currentCaption = caption_track.querySelector('.current-caption');
-    const prevCaption = currentCaption.previousElementSibling;
-    currentCaption.classList.add('is-hidden');
-    currentCaption.classList.remove('current-caption');
-    prevCaption.classList.add('current-caption');
-    prevCaption.classList.remove('is-hidden');
-
-    moveToSlide(track, currentSlide, prevSlide);
-    hideShowArrows(slides, prevButton, nextButton, prevIndex);
+        window.alert("swiped left!");
+        leftSwipe();
 
       } else {
         // swiped right
         console.log("swiped right");
-          
-    const currentSlide = track.querySelector('.current-slide');
-    const currentCaption = caption_track.querySelector('.current-caption');
-    const nextCaption = currentCaption.nextElementSibling;
-    currentCaption.classList.add('is-hidden');
-    currentCaption.classList.remove('current-caption');
-    nextCaption.classList.add('current-caption');
-    nextCaption.classList.remove('is-hidden');
-
-    const nextSlide = currentSlide.nextElementSibling;
-    const nextIndex = slides.findIndex(slide => slide === nextSlide);
-
-    moveToSlide(track, currentSlide, nextSlide);
-    hideShowArrows(slides, prevButton, nextButton, nextIndex);
+        window.alert("swiped right!");
+        rightSwipe();
 
 
       }  
@@ -149,7 +133,7 @@ window.onload=function(){
       // sliding vertically
       if (diffY > 0) {
         // swiped up
-          window.alert("sometext");
+          
         console.log("swiped up");
       } else {
         // swiped down
