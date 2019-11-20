@@ -109,7 +109,6 @@ window.onload=function(){
       // sliding horizontally
       if (diffX > 0) {
         // swiped left
-          window.alert("left");
         console.log("swiped left");
           
     const currentSlide = track.querySelector('.current-slide');
@@ -128,7 +127,6 @@ window.onload=function(){
 
       } else {
         // swiped right
-          window.alert("right");
         console.log("swiped right");
           
     const currentSlide = track.querySelector('.current-slide');
