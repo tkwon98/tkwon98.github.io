@@ -41,8 +41,8 @@ button {
 }
     
     .dot {
-        height: 9px;
-    width: 9px;
+        height: 12px;
+    width: 12px;
   background-color: black;
   border-radius: 50%;
   display: inline-block;
