@@ -109,11 +109,11 @@ window.onload=function(){
       // sliding horizontally
       if (diffX > 0) {
         // swiped left
-          window.alert("sometext");
+          window.alert("left");
         console.log("swiped left");
       } else {
         // swiped right
-          window.alert("sometext");
+          window.alert("right");
         console.log("swiped right");
       }  
     } else {
