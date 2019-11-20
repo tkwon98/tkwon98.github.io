@@ -129,8 +129,12 @@ window.onload=function(){
 
       } else {
         // swiped right
+        const currentSlide = track.querySelector('.current-slide');
+        const firstSlide = track.querySelector('.first-slide');
         console.log("swiped right");
-        leftSwipe();
+        if (lastSlide !== currentSlide) {
+            leftSwipe();
+        }
         
 
 
