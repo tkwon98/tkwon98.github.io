@@ -74,7 +74,7 @@ nextButton.addEventListener('click', e => {
 
 
 window.onload=function(){
-  const swipeArea = document.querySelector(".fullscreen");
+  const swipeArea = document.querySelector(".carousel_track-container");
 
     swipeArea.addEventListener("touchstart", startTouch);
     swipeArea.addEventListener("touchmove", moveTouch);
