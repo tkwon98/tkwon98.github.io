@@ -77,6 +77,7 @@ function rightSwipe() {
 
     moveToSlide(track, currentSlide, nextSlide);
     hideShowArrows(slides, prevButton, nextButton, nextIndex);
+
 }
 
 
@@ -117,8 +118,12 @@ window.onload=function(){
       // sliding horizontally
       if (diffX > 0) {
         // swiped left
+        const currentSlide = track.querySelector('.current-slide');
+        const lastSlide = track.querySelector('.last-slide');
         console.log("swiped left");
-        rightSwipe();
+        if (lastSlide !== currentSlide) {
+            rightSwipe();
+        }
         
         
 
@@ -138,7 +143,6 @@ window.onload=function(){
         console.log("swiped up");
       } else {
         // swiped down
-          window.alert("sometext");
         console.log("swiped down");
       }  
     }
