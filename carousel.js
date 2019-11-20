@@ -118,14 +118,16 @@ window.onload=function(){
       if (diffX > 0) {
         // swiped left
         console.log("swiped left");
-        window.alert("swiped left!");
         leftSwipe();
+        window.alert("swiped left!");
+        
 
       } else {
         // swiped right
         console.log("swiped right");
-        window.alert("swiped right!");
         rightSwipe();
+        window.alert("swiped right!");
+        
 
 
       }  
