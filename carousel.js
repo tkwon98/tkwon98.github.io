@@ -132,7 +132,7 @@ window.onload=function(){
         const currentSlide = track.querySelector('.current-slide');
         const firstSlide = track.querySelector('.first-slide');
         console.log("swiped right");
-        if (lastSlide !== currentSlide) {
+        if (firstSlide !== currentSlide) {
             leftSwipe();
         }
         
